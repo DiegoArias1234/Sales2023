@@ -6,7 +6,6 @@ namespace Sales.WEB.Repositories
     public class Repository : IRepository
     {
         private readonly HttpClient _httpClient;
-        private object response;
 
         private JsonSerializerOptions _jsonDefaultOptions => new JsonSerializerOptions
         {
